@@ -327,6 +327,7 @@ header{
 }
 .course-card:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .course-title
 {
@@ -526,6 +527,12 @@ marquee >img
 }
 .story-card:hover {
     transform: scale(1.1);
+    
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.profile:hover{
+    transform:scale(1);
 }
 .profile
 {
