@@ -181,21 +181,22 @@ header{
     display: inline-block;
 }
 #blur-background {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 40%;
+    position:relative;
+    width: 50%;
     height: 100%;
-    padding-left:5%;
+    padding:5%;
     background: linear-gradient(135deg, #fff, #ffe, #ffd);
-    filter: blur(40px);
-    z-index: -1; /* Place the background behind the form */
+    backdrop-filter: blur(10px);
+    z-index: -1;
+  
 }
 #login-page
 {
-
-    width: 30%;
-    height: 450px;
+   position: absolute;
+   top:5%;
+   left:10%;
+    width: 80%;
+    height: 90%;
     padding: 25px 20px ;
     border-radius: 15px;
    background-color: white;
@@ -567,9 +568,14 @@ marquee >img
     {
         display: none;
     }
+    #blur-background{
+        height: 650px;
+        width: 450px;
+    }
     #login-page
     {
         width: 350px;
+        height:500px;
        margin-top: 40px;
     }
     #hero-body
@@ -615,4 +621,5 @@ marquee >img
         width: 120px;
         height: 50px;
     }
+
 }
