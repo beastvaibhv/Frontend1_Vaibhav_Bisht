@@ -223,7 +223,6 @@ header{
 }
 #login-page:hover{
     transition: transform 0.3s;
-  
     transform: scale(1.2);
 }
 #login-page-heading > h1
